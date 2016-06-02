@@ -132,5 +132,11 @@
             <url>http://jcenter.bintray.com</url>
         </pluginRepository>
     </pluginRepositories>
-
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>skrihelimacbook.jfrog.local-snapshots</name>
+        <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
